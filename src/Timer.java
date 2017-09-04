@@ -35,7 +35,7 @@ public class Timer implements Runnable {
                 Thread.sleep(1000);
                 counter++;
             } catch (InterruptedException e) {
-                System.out.println("Áj donnó wáj");
+                System.out.println("Interrupted Exception!");
                 run = false;
             }
         }
